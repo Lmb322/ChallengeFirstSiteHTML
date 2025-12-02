@@ -3,15 +3,13 @@ html, body {
 }
 body {
     background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
+    width: 1700px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: 30 auto;
+    background-color: rgb(255, 255, 255);
 }
 .main {
     display: flex;
@@ -19,20 +17,46 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    width: 5%;
+    background-color: rgb(198, 209, 209);
+    padding: 250px 60px 0px 0px;
+    
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
 }
 .content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(255, 255, 255);
+    min-height: auto;
+    text-align:center;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-family: cursive;
+    font-size: larger;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: larger;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: larger;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+p {
+    margin: 0;
 }
