@@ -6,35 +6,35 @@ body {
 }
 
 .wrapper {
-    width: 1700px;
+    width: 1200px;
     display: flex;
     margin: 30 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #f1f1f1;
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 .menu {
     width: 5%;
-    background-color: rgb(198, 209, 209);
-    padding: 250px 60px 0px 0px;
-    
+    background-color: rgb(149, 151, 151);
+    padding: 370px 90px 0px 0px;
+    height: 100vh;
 }
 .header {
-    background-color: rgb(255, 255, 255);
-    min-height: 100px;
+    background-color: #f1f1f1;
+    min-height: 20px;
 }
 .content {
-    background-color: rgb(255, 255, 255);
-    min-height: 300px;
-    padding: 20px;
+    background-color: #f1f1f1;
+    min-height: 0px;
+    padding: 200px 50px;
 }
 .footer {
-    background-color: rgb(255, 255, 255);
-    min-height: auto;
+    background-color: #f1f1f1;
     text-align:center;
+    margin-top:auto;
 }
 a:link{
     text-decoration: none;
